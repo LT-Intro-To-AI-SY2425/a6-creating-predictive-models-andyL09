@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# gets the data and sets x and y values
+# opens CSV file kinda like a import statement
+# sets x and y values for the headers and the values after them on the columns for the 
 data = pd.read_csv("part1-linear-regression/chirping_data.csv")
 x = data["Temp"]
 y = data["Chirps"]
